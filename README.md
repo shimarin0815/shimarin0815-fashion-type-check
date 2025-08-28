@@ -3,7 +3,7 @@
 7つの質問に答えるだけで、あなたのファッションタイプを判定するシンプルなWebアプリです。  
 **きれいめカジュアル / シンプル＆ベーシック / ストリートMIX / フェミニン / モード / ヴィンテージ** から結果を表示し、色パレットやおすすめアイテムも提案します。
 
-- **Demo**：🔗 https://<shimarin0815/fashion-type-check>.github.io/<リポジトリ名>/
+- **Demo**：🔗 https://<shimarin0815/fashion-type-check>.github.io/<[リポジトリ名](https://github.com/shimarin0815/shimarin0815-fashion-type-check)>/
 - **Tech**：HTML / CSS / JavaScript（フレームワーク不使用）
 - **Editor**：VS Code（Live Server 推奨）
 - **License**：MIT
