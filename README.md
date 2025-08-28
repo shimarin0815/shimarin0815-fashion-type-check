@@ -25,9 +25,5 @@
 
 ---
 
-## 使い方（ローカル実行）
 
-1. このリポジトリをクローン
-   ```bash
-   git clone https://github.com/<あなたのGitHub名>/<リポジトリ名>.git
-   cd <リポジトリ名>
+
