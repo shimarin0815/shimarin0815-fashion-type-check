@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>7つの質問でわかる！ファッションタイプ診断</title>
+  <meta name="description" content="7つの質問に答えるだけ。あなたに似合うファッションタイプを診断します。" />
+
+  <!-- Google Fonts（おしゃれ＆読みやすい） -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- OGP / Xカード -->
+   <meta property="og:image" content="assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
+  <meta property="og:title" content="7つの質問でわかる！ファッションタイプ診断">
+  <meta property="og:description" content="きれいめ？ストリート？7問でサクッと判定！">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👗</text></svg>">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>7つの質問でわかる！<br class="sp">ファッションタイプ診断</h1>
+      <p class="lead">直感で選ぶだけ。あなたの“らしさ”が見えてくるよ。</p>
+    </header>
+
+    <section id="quiz" class="card" aria-live="polite">
+      <div class="progress">
+        <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+      </div>
+      <div id="question-area"></div>
+
+      <div class="nav">
+        <button id="prev" class="btn ghost" aria-label="前の質問へ">← 戻る</button>
+        <button id="next" class="btn" aria-label="次の質問へ">次へ →</button>
+      </div>
+    </section>
+
+    <section id="result" class="card hidden" aria-live="polite">
+      <h2 id="result-title">診断結果</h2>
+      <p id="result-desc" class="result-desc"></p>
+
+      <div id="result-tags" class="tags"></div>
+
+      <div class="palette" id="palette"></div>
+
+      <div class="suggest">
+        <h3>おすすめアイテム</h3>
+        <ul id="suggest-list"></ul>
+      </div>
+
+      <div class="cta-row">
+        <button id="retry" class="btn ghost">もう一度やる</button>
+        <a id="share-x" class="btn linklike" target="_blank" rel="noopener">Xで結果をシェア</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Fashion Type Check. Made with ♡</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
